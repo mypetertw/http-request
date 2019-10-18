@@ -19,13 +19,13 @@ $data = [
 $data = HTTP_REQUEST('<https-api-url>', json_encode($data));
 ```
 
-Render data
+Output:
 
 ```php
 echo $data['message']
 ```
 
-Render array data
+Output array:
 
 ```php
 foreach ($data as $value) {
