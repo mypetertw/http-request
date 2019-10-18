@@ -9,12 +9,12 @@ Put `HttpRequest.php` to your project.
 
 ## Usage
 
-Include `HTTP_REQUEST` function and post `$data` with json
+Include `HTTP_REQUEST` function and `Post` your `$data` with json
 
 ```php
 $data = [
-    "id" => $id,
-    "field" => $field
+    'id' => $id,
+    'field' => $field
 ];
 $data = HTTP_REQUEST('<https-api-url>', json_encode($data));
 ```
