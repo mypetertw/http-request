@@ -9,7 +9,8 @@ Put `HttpRequest.php` to your project.
 
 ## Usage
 
-### Include HTTP_REQUEST function and post $data with json
+Include `HTTP_REQUEST` function and post `$data` with json
+
 ```php
 $data = [
     "id" => $id,
@@ -18,13 +19,13 @@ $data = [
 $data = HTTP_REQUEST('<https-api-url>', json_encode($data));
 ```
 
-### Render data
+Render data
 
 ```php
 echo $data['message']
 ```
 
-### Render array data
+Render array data
 
 ```php
 foreach ($data as $value) {
