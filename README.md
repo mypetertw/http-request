@@ -21,11 +21,13 @@ $data = HTTP_REQUEST('<https-api-url>', json_encode($data));
 ### Render data
 
 ```php
-<?=$data['message'];?>
+echo $data['message']
 ```
 
 ### Render array data
 
+```php
 foreach ($data as $value) {
     echo $value['message'];
 }
+```
