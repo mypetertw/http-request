@@ -9,7 +9,7 @@ Put `HttpRequest.php` to your project.
 
 ## Usage
 
-Include `HTTP_REQUEST` function and `POST` your `$data` with json
+Include `HTTP_REQUEST` function and `POST` your `$data` with json.
 
 ```php
 $data = [
