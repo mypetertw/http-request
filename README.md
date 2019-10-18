@@ -1,5 +1,5 @@
 # http-request
-### Php Script for Git Pull in your web server
+### Php script with Curl to send or get json with API.
 
 ---
 
